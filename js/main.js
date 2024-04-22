@@ -1050,3 +1050,10 @@ $(function () {
     });
 
 });
+
+
+/*$(window).scroll(function(){
+    var header = $('.mil-frame-top');
+    if (scroll >= 10) header.addClass('fixed');
+    else header.removeClass('fixed');
+});*/
