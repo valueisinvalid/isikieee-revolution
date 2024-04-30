@@ -1368,16 +1368,19 @@ menu button
 .mil-menu-btn.mil-active span {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+          background-color: #ffffff;
 }
 .mil-menu-btn.mil-active span:before {
   -webkit-transform: translate(0px, 9px) rotate(-90deg);
           transform: translate(0px, 9px) rotate(-90deg);
+          background-color: #ffffff;
 }
 .mil-menu-btn.mil-active span:after {
   opacity: 0;
   width: 24px;
   -webkit-transform: translate(0px, -9px) rotate(-90deg);
           transform: translate(0px, -9px) rotate(-90deg);
+          background-color: #ffffff;
 }
 
 /* -------------------------------------------
