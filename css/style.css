@@ -4250,7 +4250,11 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
-
+@media screen and (max-width:1200px) {
+  .mil-menu-btn span,span::before,span::after{
+    background: black !important;
+  }
+}
 .overlay{
   content: '';
   width: 100%;
