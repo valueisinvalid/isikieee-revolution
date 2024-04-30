@@ -4261,3 +4261,15 @@ html.is-animating .mil-menu-frame {
   position: absolute;
   z-index: 1;
 }
+.text-comite{
+  display: grid;
+  place-items: center; /* Hem yatay hem de dikey ortalama */
+  height: 100vh; /* Sayfa yüksekliği kadar */
+  /*display: flex;
+  justify-content: center; Yatay ortalama */
+  /*align-items: center; /* Dikey ortalama */
+  /*height: 100vh;  Sayfa yüksekliği kadar */
+  /*align-items: center;
+  margin-left: 30%;*/
+  
+}
