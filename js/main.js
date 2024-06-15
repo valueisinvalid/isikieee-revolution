@@ -9,6 +9,9 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 
 ------------------------------------------- */
 
+
+
+
 $(function () {
 
     "use strict";
@@ -142,7 +145,7 @@ $(function () {
         $(".mil-arrow").clone().appendTo(".mil-arrow-place");
         $(".mil-dodecahedron").clone().appendTo(".mil-animation");
         $(".mil-lines").clone().appendTo(".mil-lines-place");
-        $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
+        //$(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
     });
     /***************************
 
@@ -634,6 +637,7 @@ $(function () {
         $('.mil-menu-btn').removeClass('mil-active');
         $('.mil-menu').removeClass('mil-active');
         $('.mil-menu-frame').removeClass('mil-active');
+        
         /***************************
 
         append
@@ -712,7 +716,7 @@ $(function () {
         cursor
 
         ***************************/
-
+       
         $('.mil-drag, .mil-more, .mil-choose').mouseover(function () {
             gsap.to($(cursor), .2, {
                 width: 90,
@@ -833,6 +837,7 @@ $(function () {
             $(this).toggleClass('mil-active');
             $(this).next().toggleClass('mil-active');
         });
+       
         /***************************
 
         scroll animations
@@ -1057,3 +1062,25 @@ $(function () {
     if (scroll >= 10) header.addClass('fixed');
     else header.removeClass('fixed');
 });*/
+
+
+window.addEventListener("scroll", function () {
+    var header = document.querySelector("#aa");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+  
+  var scrollPosition = 0;
+  $(window).scroll(function () {
+    var currenPosition = $(this).scrollTop();
+    if (currenPosition > scrollPosition) {
+      var header1 = document.querySelector('#aa');
+      header1.classList.remove('scroll-up');
+      header1.classList.add('scroll-down');
+    }
+    else {
+      var header1 = document.querySelector('#aa');
+      header1.classList.remove('scroll-down');
+      header1.classList.add('scroll-up');
+    }
+    scrollPosition = currenPosition;
+  });
