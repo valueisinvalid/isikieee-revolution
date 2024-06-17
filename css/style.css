@@ -326,12 +326,11 @@ h6,
 }
 
 .xtreme-header-padding{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 25px 60px;
+  background-color: #ffffff;
 }
 .header-padding{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 25px 60px;
 }
 .mil-frame-top.scroll-up {
   top: 0px;
@@ -344,11 +343,7 @@ h6,
   top: -150px;
 }
 
-.xtreme-header-padding{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #ffffff;
-}
+
 
 .mil-frame-top.scroll-up {
   top: 0px;
@@ -1251,7 +1246,7 @@ frame
 
 .mil-frame-xtreme {
   z-index: 999;
-  padding: 0px 60px 60px 60px;
+  padding: 0px 0px 0px 0px;
   position: fixed;
   pointer-events: none;
   display: -webkit-box;
@@ -1271,7 +1266,7 @@ frame
 
 .mil-frame {
   z-index: 999;
-  padding: 0px 60px 60px 60px;
+  padding: 0px 0px 0px 0px;
   position: fixed;
   pointer-events: none;
   display: -webkit-box;
@@ -1390,12 +1385,18 @@ frame
           transform: rotate(-90deg) translateX(138px) translateY(-138px);
 }
 .mil-frame .mil-frame-bottom .mil-back-to-top {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
   width: 300px;
   -webkit-transform: rotate(-90deg) translateX(130px) translateY(130px);
           transform: rotate(-90deg) translateX(130px) translateY(130px);
   pointer-events: all;
 }
 .mil-frame-xtreme .mil-frame-bottom .mil-back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
   width: 300px;
   -webkit-transform: rotate(-90deg) translateX(130px) translateY(130px);
           transform: rotate(-90deg) translateX(130px) translateY(130px);
@@ -1523,7 +1524,7 @@ menu
   top: 0;
   left: 0;
   width: 100%;
-  padding: 50px 60px;
+  padding: 25px 60px;
 }
 @media screen and (max-width: 1200px) {
   .mil-menu-frame .mil-frame-top {
@@ -3157,7 +3158,9 @@ footer
 .mil-footer-menu ul li {
   list-style-type: none;
   margin-bottom: 30px;
+ 
 }
+
 .mil-footer-menu ul li a {
   display: block;
   font-weight: 500;
@@ -3172,6 +3175,12 @@ footer
   color: #000000;
 }
 @media screen and (max-width: 768px) {
+  footer div{
+    text-align: center;
+  }
+  footer .footer-logo{
+    margin-bottom: 50px;
+  }
   .mil-footer-menu ul li a {
     font-size: 22px;
   }
@@ -4397,4 +4406,10 @@ html.is-animating .mil-menu-frame {
   /*align-items: center;
   margin-left: 30%;*/
   
+}
+
+.footer-logo{
+  position: relative;
+  width: 100%;
+  height: auto;
 }
