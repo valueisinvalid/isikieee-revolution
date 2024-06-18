@@ -1059,6 +1059,9 @@ spaces
 .mil-btn-space {
   margin-right: 30px;
 }
+.register-section{
+  margin-top: 4%;
+}
 @media screen and (max-width: 500px) {
   .mil-btn-space {
     margin-right: 50px;
