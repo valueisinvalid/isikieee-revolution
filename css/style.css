@@ -93,7 +93,7 @@ body {
 
 *::selection {
   color: inherit;
-  background-color: transparent;
+  background-color: #263179;
 }
 
 .mil-wrapper {
