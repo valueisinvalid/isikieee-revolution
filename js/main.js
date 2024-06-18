@@ -24,7 +24,7 @@ $(function () {
     const options = {
         containers: ['#swupMain', '#swupMenu'],
         animateHistoryBrowsing: true,
-        linkSelector: 'a:not([data-no-swup])',
+        
         animationSelector: '[class="mil-main-transition"]'
     };
     const swup = new Swup(options);
@@ -122,7 +122,7 @@ $(function () {
     anchor scroll
 
     ***************************/
-    $(document).on('click', 'a[href^="#"]', function (event) {
+     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
 
         var target = $($.attr(this, 'href'));
