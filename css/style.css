@@ -1538,9 +1538,9 @@ menu
   padding: 25px 60px;
 }
 @media screen and (max-width: 1200px) {
-  .mil-menu-frame .mil-frame-top {
-    /*display: none;*/
-  }
+  /*.mil-menu-frame .mil-frame-top {
+    display: none;
+  }*/
 }
 .mil-menu-frame .mil-frame-top .mil-logo {
   color: rgb(255, 255, 255);
