@@ -1539,7 +1539,7 @@ menu
 }
 @media screen and (max-width: 1200px) {
   .mil-menu-frame .mil-frame-top {
-    display: none;
+    /*display: none;*/
   }
 }
 .mil-menu-frame .mil-frame-top .mil-logo {
@@ -4389,9 +4389,9 @@ html.is-animating .mil-menu-frame {
           transition-delay: 0.3s;
 }
 @media screen and (max-width:1200px) {
-  .mil-menu-btn span,span::before,span::after{
+  /*.mil-menu-btn span,span::before,span::after{
     background: black !important;
-  }
+  }*/
 }
 .overlay{
   content: '';
