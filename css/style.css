@@ -360,7 +360,7 @@ blockquote {
   background-color: rgba(0, 0, 0, 0.05);
   font-size: 18px;
   color: rgb(0, 0, 0);
-  font-style: italic;
+  font-style: normal;
   border-left: solid 4px #263179;
 }
 @media screen and (max-width: 768px) {
@@ -811,7 +811,10 @@ breadcrumbs
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-breadcrumbs li a:hover {
-  color: rgb(255, 152, 0);
+  color: #263179;
+}
+a:hover {
+  color: #263179;
 }
 .mil-breadcrumbs li:last-child {
   margin-right: 0;
@@ -831,7 +834,7 @@ breadcrumbs
   color: rgba(255, 255, 255, 0.9);
 }
 .mil-breadcrumbs.mil-light li a:hover {
-  color: rgb(255, 152, 0) !important;
+  color: #263179 !important;
 }
 .mil-breadcrumbs.mil-center {
   -webkit-box-pack: center;
