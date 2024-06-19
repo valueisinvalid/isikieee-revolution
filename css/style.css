@@ -4398,11 +4398,11 @@ html.is-animating .mil-menu-frame {
   width: 100%;
   height: 100%;
   opacity: .3;
-  box-shadow: inset 0px 0px 100px 0px #2541B2,
+  /*box-shadow: inset 0px 0px 100px 0px #2541B2,
   inset 0px 0px 100px 0px #2541B2,
   inset 0px 0px 100px 0px #2541B2,
   inset 0px 0px 100px 0px #2541B2,
-  inset 0px 0px 100px 0px #2541B2;
+  inset 0px 0px 100px 0px #2541B2;*/
   position: absolute;
   z-index: 1;
 }
