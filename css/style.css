@@ -1334,14 +1334,14 @@ frame
     color: rgb(255, 255, 255);
   }
   .mil-frame .mil-frame-top .mil-menu-btn span, .mil-frame .mil-frame-top .mil-menu-btn span:after, .mil-frame .mil-frame-top .mil-menu-btn span:before {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
   }
 
   .mil-frame-xtreme .mil-frame-top .mil-logo {
     color: rgb(255, 255, 255);
   }
   .mil-frame-xtreme .mil-frame-top .mil-menu-btn span, .mil-frame .mil-frame-top .mil-menu-btn span:after, .mil-frame .mil-frame-top .mil-menu-btn span:before {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
   }
 }
 .mil-frame .mil-frame-bottom {
@@ -1466,6 +1466,7 @@ menu button
   .mil-menu-btn {
     -webkit-transform: scale(0.85);
             transform: scale(0.85);
+             z-index: 11111111;
   }
 }
 .mil-menu-btn span, .mil-menu-btn span:after, .mil-menu-btn span:before {
@@ -4392,7 +4393,12 @@ html.is-animating .mil-menu-frame {
   /*.mil-menu-btn span,span::before,span::after{
     background: black !important;
   }*/
+  
+  .mil-menu-btn {
+    z-index: 11111111;
+  }
 }
+
 .overlay{
   content: '';
   width: 100%;
