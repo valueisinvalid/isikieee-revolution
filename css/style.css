@@ -1856,6 +1856,11 @@ banner
     padding: 180px 0 0 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .mil-inner-banner .mil-banner-content {
+      padding: 90px 0 0 0;
+  }
+}
 
 .mil-banner-personal {
   height: 100vh;
